@@ -1,4 +1,3 @@
-# surgery_simulation_enhanced.py
 import simpy
 import random
 import pandas as pd
@@ -217,4 +216,5 @@ def run_simulation():
 
 
 if __name__ == "__main__":
+
     run_simulation()
