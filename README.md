@@ -1,13 +1,8 @@
-# **README.md** – Surgery Unit Simulation (TIES481 – Assignment 2)
-
----
-
-```markdown
 # Surgery Unit Simulation – TIES481 Assignment 2  
 **University of Jyväskylä (JYU), Finland**  
 **Course:** Simulation (2025)  
 **Assignment:** 2 – Process-Based Discrete Event Simulation  
-**Author:** Wajahat Haider 
+**Author:** Wajahat ¦ Declan ¦ Maryam  
 
 ---
 
@@ -44,9 +39,7 @@ Each patient carries **personal service times** for preparation, operation, and 
 
 ## System Model
 
-```
 [Arrival] → [Queue] → [P Prep Rooms] → [1 Op Theatre] → [R Recovery Rooms] → [Exit]
-```
 
 - **No queues** between phases (direct transfer)  
 - **Blocking occurs** when operation ends but no recovery bed is free  
@@ -54,18 +47,17 @@ Each patient carries **personal service times** for preparation, operation, and 
 
 ---
 
-## File Structure
 
-```
+## File Structure
 .
 ├── surgery_simulation.py             # Main simulation code
 ├── queue_over_time.csv               # Generated: Queue length vs time
 ├── queue_length_plot.png             # Generated: Visualization
 ├── README.md                         # This file
 └── Experiment_surgery_simulation.py  # just experiment with different python library
+
 ```
 
----
 
 ## Requirements
 
@@ -75,6 +67,7 @@ pandas>=1.5
 matplotlib>=3.5
 ```
 
+---
 ---
 
 ## How to Run
@@ -88,6 +81,8 @@ matplotlib>=3.5
    ```bash
    python surgery_simulation.py
    ```
+---
+---
 
 ### Example Output
 
